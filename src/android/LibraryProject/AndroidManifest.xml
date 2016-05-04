@@ -54,6 +54,7 @@
     <activity android:name=".CaptureActivity"
               android:clearTaskOnLaunch="true"
               android:stateNotNeeded="true"
+			  android:screenOrientation="landscape"
               android:configChanges="orientation|keyboardHidden"
               android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
               android:windowSoftInputMode="stateAlwaysHidden">
